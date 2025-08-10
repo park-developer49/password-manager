@@ -1,0 +1,15 @@
+# Ignore node modules (dependencies)
+node_modules/
+
+# Ignore data folder (your encrypted credentials)
+data/
+
+# Ignore environment variables file (if you create one)
+.env
+
+# Ignore log files
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db

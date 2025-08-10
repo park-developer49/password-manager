@@ -2,6 +2,8 @@ import yargs from 'yargs';
 import { hideBin } from 'yargs/helpers';
 import { addCredential, getCredential, listCredentials } from './utils/storage.js';
 
+console.log("Welcome to the password manager.")
+
 yargs(hideBin(process.argv))
   .command('add', 'Add a new credential', (yargs) => 
     {
